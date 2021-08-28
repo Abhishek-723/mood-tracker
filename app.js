@@ -16,7 +16,7 @@ function addMood(event){
     newMood.classList.add("mood");
     newMood.innerHTML=moodInput.value;
     const moodText = document.createElement("div");
-    moodText.classList.add("body");
+    moodText.classList.add("styled");
     if(moodInput.value==="Bad"){
         moodText.innerHTML = "In the middle of difficulties lie oppurtunities, work your way to a better future..."
     }
